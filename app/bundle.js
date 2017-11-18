@@ -1,3 +1,4 @@
+/*! 学习webpack实例 */
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -65,9 +66,17 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// document.write("It's works.");
+__webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./style.css\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+document.write(__webpack_require__(1));
+
+/***/ }),
+/* 1 */
 /***/ (function(module, exports) {
 
-document.write("It's works.");
+module.exports = "It works from runoob2.js."
 
 /***/ })
 /******/ ]);
