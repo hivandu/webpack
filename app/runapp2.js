@@ -1,0 +1,1 @@
+module.exports = "It's works from runapp2.js by hivan and 13118";
